@@ -1,0 +1,27 @@
+---
+layout: page
+title: About
+permalink: /about/
+links:
+- link_1:
+  title: Amanda's Figma project
+  href: https://www.figma.com/file/TpbCbx0FsEzpAS9M7auTNC/Amanda-Carter's-Web-Design-Draft
+- link_2:
+  title: second link
+  href: https://www.figma.com/file/TpbCbx0FsEzpAS9M7auTNC/Amanda-Carter's-Web-Design-Draft
+---
+
+<h3>About</h3>
+
+Bio goes here
+
+<h3>Links</h3>
+<ul>
+{% for link in page.links %}
+  <li class="pagelink"><a href="{{link.href}}" target="_blank">{{link.title}}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Contact me</h3>
+
+<a href="mailto:{{site.footer-links.email}}">{{site.footer-links.email}}</a>
