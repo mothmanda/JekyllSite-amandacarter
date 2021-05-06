@@ -1,6 +1,26 @@
 --- 
 layout: default 
 title: Gallery
+media:
+- type: img
+  src: https://via.placeholder.com/400x300
+  desc: Lorem ipsum
+- type: img
+  src: https://via.placeholder.com/400x300
+  desc: dolor sit amet
+- type: video
+  src: https://youtu.be/jLC0bCLGb9U/400x300
+  desc: Video killed the radio star
 ---
 
-Gallery in here
+{% for item in page.media %}
+  {% if item.type == "img" %}
+    <img src="{{item.src}}" alt="{{item.desc}}">
+  {% endif %}
+  {% if item.type == "video" %} 
+   <!-- <video src="{{item.src}}" controls=></video> -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K4vcVZ-glGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+  {% endif %}
+{% endfor %}
