@@ -21,7 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
-  color: #502CF5;
+  color: #360CA1;
   background-color: #C1F4D2;
 }
 
@@ -50,6 +50,7 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
+    color: #9D0FCC;
   }
 }
 
@@ -74,6 +75,7 @@ p {
 
 a {
   color: $blue;
+  color: #4135E3;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -156,6 +158,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: #F9FAC1;
 }
 
 .masthead {
@@ -172,7 +175,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
-
+ 
   @include mobile {
     float: none;
     display: block;
@@ -207,6 +210,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
+  color: #0E5EB4;
   font-size: 16px;
 
   @include mobile {
@@ -285,6 +289,7 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+  background-color: #F9FAC1;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
