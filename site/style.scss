@@ -21,6 +21,8 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  color: #502CF5;
+  background-color: #C1F4D2;
 }
 
 .container {
@@ -62,10 +64,12 @@ h3 {
 h4 {
   font-size: 18px;
   color: $gray;
+
 }
 
 p {
   margin: 15px 0;
+
 }
 
 a {
