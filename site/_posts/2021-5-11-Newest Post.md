@@ -1,8 +1,7 @@
 ---
 layout: post
-title: New Release
+# title: New Release
 featured_image: https://via.placeholder.com/256
-img_alt: Lorem ipsum dolor sit amet
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida mattis commodo. Vestibulum sed bibendum odio, id lacinia urna. Mauris eleifend, eros vel sollicitudin consequat, odio ex cursus ligula, sed scelerisque elit mi a elit. Etiam tristique, diam vel consectetur molestie, magna leo cursus ligula, at rhoncus enim nunc quis orci. Aliquam id tortor vitae elit luctus dapibus. Nulla in consectetur velit, vel tempus enim. Maecenas vel vestibulum mi. Proin tempor mi quis risus eleifend, at hendrerit justo aliquet. Maecenas in tellus et arcu blandit egestas vitae et nulla. Vestibulum in tincidunt nisl, sed hendrerit ligula. Praesent porta est a maximus porta. In varius eget magna ac semper. Nullam consectetur at diam dignissim tristique.

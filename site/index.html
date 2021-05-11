@@ -1,18 +1,49 @@
 ---
 layout: default
+tracks:
+- title: "Awesome Song!"
+  url: streaming link
+  artwork: https://via.placeholder.com/128
+  audio: /media/audio-clip.m4a
+- title: "Awesome Song: The Sequel"
+  url: streaming link
+  artwork: https://via.placeholder.com/128
+  audio: /media/audio-clip.m4a
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
+<section class="posts">
+  <h2>Latest News</h2>
+  {% for post in site.posts limit:4 %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="featured_image">
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="{{post.featured_image}}" alt=
+          {% if post.img_alt %}"{{post.img_alt}}"{% else %}"{{post.title}}"{% endif %}>
+        </a>
       </div>
+      <div class="post-info">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+          {{ post.excerpt | truncatewords: 15 }}
+        </div>
+      </div>
     </article>
   {% endfor %}
-</div>
+</section>
+<section class="tracks">
+  <h2>Recent Music</h2>
+  {% for track in page.tracks %}
+    <div class="track">
+      <div class="artwork">
+        <a href="{{track.url}}" target="_blank">
+          <img src="{{track.artwork}}" alt="{{track.title}} artwork">
+        </a>
+      </div>
+      <h3><a href="{{track.url}}" target="_blank">{{track.title}}</a></h3>
+      <audio src="{{track.audio}}" controls></audio>
+      <p><a href="{{track.url}}" target="_blank">stream</a></p>
+    </div>
+  {% endfor %}
+</section>
