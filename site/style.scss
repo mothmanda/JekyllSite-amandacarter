@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
+  color: #9D0FCC;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -50,7 +51,6 @@ h1 {
   font-size: 30px;
   a {
     color: inherit;
-    color: #9D0FCC;
   }
 }
 
@@ -73,8 +73,7 @@ p {
 
 }
 
-a {
-  color: $blue;
+a, a:visited, a:hover, a:active {
   color: #4135E3;
   text-decoration: none;
 	cursor: pointer;

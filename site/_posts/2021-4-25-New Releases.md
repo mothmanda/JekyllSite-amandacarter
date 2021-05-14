@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Releases
-featured_image: https://via.placeholder.com/256
+featured_image: https://via.placeholder.com/400x250
 img_alt: Lorem ipsum dolor sit amet
 ---
 

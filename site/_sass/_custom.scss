@@ -1,3 +1,36 @@
+small { font-size: .8rem; }
+
 .site-avatar img {
     border-radius: 50%;
+}
+
+img, audio, iframe {
+    max-width: 100%;
+}
+
+section.posts {
+  display: grid;
+  grid-gap: 2rem;
+  margin-bottom: 4rem;
+
+  h2 { margin-bottom: 0 }
+
+  .post, .post:last-child {
+    border-radius: .25rem;
+    background: rgba(0,0,0,.1);
+    padding: 0;
+    border: none;
+
+    .post-info {
+      padding: 0 1em 1em;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  section.posts {
+    grid-template-columns: 1fr 1fr;
+
+    h2 { grid-column: span 2; }
+  }
 }
