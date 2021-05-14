@@ -1,12 +1,8 @@
 ---
 layout: post
-title: New Release
+title: New Releases
 featured_image: https://via.placeholder.com/256
 img_alt: Lorem ipsum dolor sit amet
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida mattis commodo. Vestibulum sed bibendum odio, id lacinia urna. Mauris eleifend, eros vel sollicitudin consequat, odio ex cursus ligula, sed scelerisque elit mi a elit. Etiam tristique, diam vel consectetur molestie, magna leo cursus ligula, at rhoncus enim nunc quis orci. Aliquam id tortor vitae elit luctus dapibus. Nulla in consectetur velit, vel tempus enim. Maecenas vel vestibulum mi. Proin tempor mi quis risus eleifend, at hendrerit justo aliquet. Maecenas in tellus et arcu blandit egestas vitae et nulla. Vestibulum in tincidunt nisl, sed hendrerit ligula. Praesent porta est a maximus porta. In varius eget magna ac semper. Nullam consectetur at diam dignissim tristique.
-
-Sed ultricies, leo ut egestas sagittis, urna elit consectetur nisl, ac faucibus sem ex quis lectus. Etiam a metus iaculis, dapibus nisl non, rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu elit ac metus interdum interdum. Aenean a tellus vel erat malesuada imperdiet et et mi. Phasellus vitae vehicula elit. Integer sodales malesuada quam a pretium. Duis ornare rutrum ultrices. Fusce non maximus magna. Ut ac posuere erat, sit amet feugiat diam. Sed cursus venenatis efficitur. Nullam ut ex id arcu tincidunt ornare nec vitae justo.
-
-Nulla auctor, libero et efficitur tempor, ex leo maximus est, ut fringilla justo dui ultricies velit. Donec at euismod nisi, nec egestas leo. Quisque porttitor dui ipsum, sed commodo sem malesuada eu. Duis ultrices massa vitae quam suscipit, at posuere est varius. Sed eget volutpat risus, nec feugiat mauris. Phasellus vehicula, dolor id molestie aliquet, sapien tellus suscipit mi, ut aliquam lectus lectus eu metus. Donec vitae fringilla dui. Vivamus laoreet nisl metus, vitae sollicitudin dolor aliquam in. In cursus, justo vitae ultrices malesuada, enim eros tristique nulla, nec luctus elit ex vel lacus. Etiam eu nunc nec quam efficitur placerat. Duis vel felis vehicula, feugiat massa dapibus, blandit lorem. Nam porttitor porttitor condimentum.
+Scroll down to listen to my recent singles, "Takeshita St." and "Scratch Rabbit."
