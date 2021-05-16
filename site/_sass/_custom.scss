@@ -34,3 +34,7 @@ section.posts {
     h2 { grid-column: span 2; }
   }
 }
+
+@media screen and (min-width: 2880px) {
+  grid-template-columns: 2fr 1fr;
+}
