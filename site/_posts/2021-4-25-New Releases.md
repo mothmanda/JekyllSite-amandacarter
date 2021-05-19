@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Releases
-featured_image: https://via.placeholder.com/400x250
+featured_image: /images/Starr.jpg
 img_alt: Lorem ipsum dolor sit amet
 ---
 
