@@ -4,23 +4,37 @@ title: Gallery
 media:
 - type: img
   src: /images/SunStudios.JPG
+  span: 1
   desc: Misses Ellipsis's recording session at the legendary Sun Studios in Memphis, TN, 2018
 - type: img
   src: /images/ArtJam.jpg
+  span: 1
   desc: Amanda Carter playing keyboards with soul-funk-rock band, Soy Capybara at the 2019 Art Jam festival in Whitingham, VT
-- type: video
-  src: https://youtu.be/jLC0bCLGb9U/400x300
+- type: embed
+  src: https://www.youtube.com/embed/K4vcVZ-glGA
   desc: Misses Ellipsis performing "Tangerine Moon" with drummer, Tyler Gavitt at A Common Ground in Danbury, CT, 2019
+- type: video
+  src: https://htmlreference.io/assets/HTML%205%20Video.mp4
+  desc: Lorem ipsum dolor sit amet
+- type: img
+  src: https://via.placeholder.com/600x250
+  span: 2
+  desc: Amanda Carter playing keyboards with soul-funk-rock band, Soy Capybara at the 2019 Art Jam festival in Whitingham, VT
 ---
-
+<section class="gallery">
 {% for item in page.media %}
   {% if item.type == "img" %}
-    <img src="{{item.src}}" alt="{{item.desc}}">
-  {% endif %}
-  {% if item.type == "video" %} 
-   <!-- <video src="{{item.src}}" controls=></video> -->
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/K4vcVZ-glGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
+    <img src="{{item.src}}" alt="{{item.desc}}" {% if item.span == 2 %}class="span2"{% endif %}>
+  {% elsif item.type == "video" %}
+    <figure class="span2"> 
+      <video src="{{item.src}}" controls=></video>
+      <figcaption>{{item.desc}}</figcaption>
+    </figure>
+  {% elsif item.type == "embed" %}
+    <figure class="aspect span2"> 
+      <iframe src="{{item.src}}" allowfullscreen frameborder="0"></iframe>
+      <figcaption>{{item.desc}}</figcaption>
+    </figure>    
   {% endif %}
 {% endfor %}
+</section>
